@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Text Summariser</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main>
+        <h1>AI Text Summariser</h1>
+        <div class="textarea-container">
+            <textarea id="inputText" placeholder="Paste your text here to be summarised..."></textarea>
+        </div>
+        <button id="summariseButton">Summarise</button>
+        
+        <div class="output-wrapper">
+            <div class="textarea-container">
+                <textarea id="outputText" placeholder="Your summary will appear here..." readonly></textarea>
+            </div>
+            <button id="copyButton" title="Copy to Clipboard">📋</button>
+        </div>
+
+    </main>
+    <script src="/static/script.js"></script>
+</body>
+</html>
